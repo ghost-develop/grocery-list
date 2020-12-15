@@ -1,16 +1,21 @@
 import React from 'react';
 // import { MainButtons } from './components/Buttons/';
 import Login from './components/Login/Login';
-import './App.css';
+import styles from './App.module.css';
 
 
 function App() {
   return (
-    <div  className="container">
-      
-      <h1>Shopping List</h1>
-      <Login />
-    {/* <MainButtons /> */}
+    <div>
+      {/* Header */}
+      <div className={styles.main_container}>
+        <h1> Shopping List </h1>
+      </div>
+
+      {/* Components */}
+      <div className={styles.main_container}>
+        <Login />
+      </div>
 
     </div>
   );

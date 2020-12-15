@@ -1,0 +1,53 @@
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+        .login_container {
+            display: grid;
+            height: 70vh;
+            width: 85vw;
+            grid-template-columns: 10px auto 10px;
+            grid-template-rows: 20px 80px 10px 80px 10px 80px 10px 60px;
+            border-radius: 10px;
+            background-color: silver;
+            box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
+            /* 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12) */
+        }
+
+        .email_container {
+            grid-row: 2 / 3;
+            background-color: red;
+            border-radius: 1%;
+        }
+
+        .password_container {
+            grid-row: 4 / 5;
+            background-color: yellow;
+            border-radius: 1%;
+        }
+
+        .repeat_container {
+            grid-row: 6 / 7;
+            background-color: blue;
+            border-radius: 1%;
+        }
+
+        .submit_container {
+            grid-row: 8 / 9;
+            background-color: green;
+            border-radius: 1%;
+        }
+
+        .email_container, .password_container, .repeat_container, .submit_container {
+            grid-column: 2 / 3;
+        }
+
+    
+
+    }
+
