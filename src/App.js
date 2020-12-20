@@ -7,11 +7,11 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <div>
-      
-      <div className={styles.main_container}>
-        <Register />
-      </div>
+    <div className={styles.main_container}>
+       
+        <div>
+          <Register />
+        </div>
 
     </div>
   );
