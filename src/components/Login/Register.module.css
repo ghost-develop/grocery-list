@@ -52,7 +52,9 @@
             border-radius: 1%;
         }
 
-        .register, .email_container, .password_container, .repeat_container, .submit_container {
+         .email_container, .password_container, .repeat_container, .submit_container {
+            justify-content: center;
+            align-items: center;
             grid-column: 2 / 3;
         }
 
