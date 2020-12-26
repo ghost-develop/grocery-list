@@ -13,7 +13,6 @@
             grid-template-columns: 10px auto 10px;
             grid-template-rows: 20px 80px 10px 80px 10px 80px 10px 60px;
             border-radius: 10px;
-            background-color: silver;
             box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
         }
 

@@ -3,29 +3,46 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
 
+          /* top right bottom left */
 
         input {
             height: 25px;
-            width: 83vw;
+            width: 100%;
+            border-style: none none solid none;
         }
+
+      
+
+
 
         .login_container {
             display: grid;
-            height: 50vh;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 10% 80% 10%;
+            grid-template-rows: 60px 80px 10px 80px 10px 80px 10px 60px;
+            height: 50%;
             width: 100%;
+
+
             border-radius: 10px;
             background-color: white;
             box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
-            grid-template-columns: 10% 80% 10%;
-            grid-template-rows: 60px 80px 10px 80px 10px 80px 10px 60px;
+
         }
 
         /* .container_items {
             display: grid;
-            /* grid-template-columns: 10% 80% 10%;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 10% 80% 10%;
             grid-template-rows: 60px 80px 10px 80px 10px 80px 10px 60px;
             
-        } */
+        }  */
+
+        .register, .submit_container {
+            justify-self: center;
+        }
 
         .email_container {
             grid-row: 2 / 3;
@@ -52,7 +69,7 @@
             border-radius: 1%;
         }
 
-         .email_container, .password_container, .repeat_container, .submit_container {
+        .register, .email_container, .password_container, .repeat_container, .submit_container {
             justify-content: center;
             align-items: center;
             grid-column: 2 / 3;
