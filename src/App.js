@@ -6,12 +6,8 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <div className={styles.main_container}>
-       
-        <div>
-          <Register />
-        </div>
-
+    <div>
+       <Register />
     </div>
   );
 }
