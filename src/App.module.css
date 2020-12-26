@@ -3,7 +3,6 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
         body {
-            /* background-image: url('./assets/background.jpg'); */
             background-color: rgb(182, 212, 211);
             height: 100%;
             width: 100vw;
@@ -16,10 +15,7 @@
             display: grid;
             justify-content: center;
             align-content: center;
-            background-color: red;
+            background-color: grey;
         }
-
-
-    
 
     }

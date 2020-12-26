@@ -7,7 +7,7 @@ const Register = () => {
     return (
         <div>
             <div className={styles.login_container}>
-                <div className={styles.container_items}>
+                {/* <div className={styles.container_items}> */}
                     
                     <div className={styles.register}>
                         <h2>Register</h2>
@@ -31,7 +31,7 @@ const Register = () => {
                     <div className={styles.submit_container}>
                         <button type='submit'>Register</button>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )

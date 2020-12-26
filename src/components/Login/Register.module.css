@@ -6,30 +6,32 @@
 
         input {
             height: 25px;
-            width: 100%;
+            width: 83vw;
         }
 
         .login_container {
             display: grid;
-            height: 75vhç;
-            width: 75vw;
+            height: 50vh;
+            width: 100%;
             border-radius: 10px;
-            background-color: purple;
+            background-color: white;
             box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
-        }
-
-        .container_items{
-            /* height: 100%;
-            width: 100%; */
-            
-            grid-template-columns: 10px auto 10px;
+            grid-template-columns: 10% 80% 10%;
             grid-template-rows: 60px 80px 10px 80px 10px 80px 10px 60px;
         }
+
+        /* .container_items {
+            display: grid;
+            /* grid-template-columns: 10% 80% 10%;
+            grid-template-rows: 60px 80px 10px 80px 10px 80px 10px 60px;
+            
+        } */
 
         .email_container {
             grid-row: 2 / 3;
             background-color: pink;
             border-radius: 1%;
+            
         }
 
         .password_container {
@@ -50,7 +52,7 @@
             border-radius: 1%;
         }
 
-        .email_container, .password_container, .repeat_container, .submit_container {
+        .register, .email_container, .password_container, .repeat_container, .submit_container {
             grid-column: 2 / 3;
         }
 
