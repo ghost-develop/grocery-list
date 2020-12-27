@@ -34,5 +34,6 @@ const Register = () => {
         </div>
     )
 }
+// comment
 
 export default Register;
