@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Register.module.css';
 
 const Register = () => {
-    
+
     return (
-        <div>
+        <form>
             <div className={styles.main_container}>
                 <div className={styles.login_container}>
                     <div className={styles.register}>
@@ -31,7 +31,7 @@ const Register = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     )
 }
 // comment
